@@ -80,11 +80,12 @@ public class SortMethod {
 		arrayPrint(s);
 		System.out.println("排序后的数组：");
 		long startDate = System.nanoTime();
-		int[] sqList = bubbleSort3(s);
+		int[] sqList = bubbleSort1(s);
 		long endDate = System.nanoTime();
 		arrayPrint(sqList);
 		System.out.println("所用时间(毫微秒)：" + (endDate - startDate));
 		System.out.println("-------------------");
+		System.out.println(8/3);
 	}
 
 }
